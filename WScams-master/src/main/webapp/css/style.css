@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.wrapper{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:5px;
+}
+
+ canvas, img{
+	width: 400px;
+	height: 400px;
+	background-color: #000;
+}
+
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  width: 400px;
+	height: 400px;
+	background-color: #000;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
