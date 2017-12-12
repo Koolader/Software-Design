@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var canvas = document.querySelector('canvas');
 	var img = document.querySelector('img');
 	var context = canvas.getContext('2d');
-	var socket = new WebSocket(url);
+	var socket = new WebSocket(urlServer);
 	var constraints = {
 			video: true,
 			audio: false
